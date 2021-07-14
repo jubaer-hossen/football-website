@@ -324,17 +324,40 @@ body {
     .why-us-info {
         width: 100%;
         height: auto;
+        margin: 0px 10px;
     }
 
     .contact-container {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
+        /* padding: 0%;
+        margin: 0%; */
     }
 
     .address {
         width: 57%;
         margin: 10px 10px 10px 10px;
-        padding-right: 0px;
+        padding-right: 90px;
+    }
+
+    .address-color {
+        width: 75%;
+        padding-right: 0%;
+        margin-right: 0%;
+    }
+
+
+    .address-text {
+        padding: 10px 30px;
+    }
+
+    #submit {
+        padding: 20px 75px;
+    }
+
+    #footer-info img {
+        width: 250px;
+        height: auto;
     }
 
 
