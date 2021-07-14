@@ -319,6 +319,23 @@ body {
         width: 328px;
         height: 248px;
         margin-left: 20px;
-
     }
+
+    .why-us-info {
+        width: 100%;
+        height: auto;
+    }
+
+    .contact-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .address {
+        width: 57%;
+        margin: 10px 10px 10px 10px;
+        padding-right: 0px;
+    }
+
+
 }
