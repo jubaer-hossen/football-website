@@ -214,16 +214,28 @@ body {
 -------------------------- */
 
 .footer-container {
-    width: 480px;
-    height: 215px;
-    /* display: flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer-info {
+    display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center; */
-    border: gray solid 1px;
+    width: 480px;
+    height: 215px;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 .footer-container img {
     width: 483.87px;
     height: 110px;
+}
+
+.social-icon a {
+    text-decoration: none;
+    color: #969BAB;
+    margin: 0 14px;
 }
