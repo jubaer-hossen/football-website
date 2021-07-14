@@ -239,3 +239,86 @@ body {
     color: #969BAB;
     margin: 0 14px;
 }
+
+/* -----------------------------------
+           Media Queries
+-------------------------------------- */
+
+/* Mobile Devices */
+
+@media only screen and (max-width:688px) {
+    /* 
+    .flexible-container,
+    .container,
+    .contact-container,
+    .footer-container,
+    .highlights-container,
+    .highlights-details,
+    .why-us-container {
+        width: 100%;
+    } */
+
+    .flexible-container {
+        width: 100%;
+        height: 700px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .flexible-container h1 {
+
+        width: 100%;
+        font-size: 48px;
+        color: #FFFFFF;
+        margin-left: 15px;
+
+    }
+
+    .flexible-container a {
+        margin-left: 15px;
+    }
+
+    .flexible-container img {
+        width: 329px;
+        height: 259.17px;
+        margin: 0 0 0 15px;
+    }
+
+    .players {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .highlights-container {
+        width: 100%;
+        height: 900px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    #highlights-details {
+        width: 329px;
+        margin-left: 15px;
+
+    }
+
+    #highlights-details p {
+        width: 340px;
+        height: 140px;
+        margin-left: 10px;
+
+    }
+
+    #highlights-details a {
+
+        margin-left: 10px;
+
+    }
+
+    .highlights-container img {
+        width: 328px;
+        height: 248px;
+        margin-left: 20px;
+
+    }
+}
