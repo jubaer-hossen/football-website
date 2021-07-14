@@ -109,7 +109,7 @@ body {
 }
 
 .highlights-container img {
-    width: 560px;
+    width: auto;
     height: 425px;
     margin-right: 140px;
 }
@@ -310,6 +310,7 @@ body {
         width: 328px;
         height: 248px;
         margin-left: 20px;
+        margin-right: auto;
     }
 
     .why-us-info {
