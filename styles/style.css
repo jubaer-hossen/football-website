@@ -247,16 +247,7 @@ body {
 /* Mobile Devices */
 
 @media only screen and (max-width:688px) {
-    /* 
-    .flexible-container,
-    .container,
-    .contact-container,
-    .footer-container,
-    .highlights-container,
-    .highlights-details,
-    .why-us-container {
-        width: 100%;
-    } */
+
 
     .flexible-container {
         width: 100%;
